@@ -1,5 +1,5 @@
 # taro_template_v2.x
-基于taro2.x开发的模板
+基于taro2.x开发的模板（仅在微信小程序中运行通过）
 
 - 集成rematch
 - 集成mocker-api
