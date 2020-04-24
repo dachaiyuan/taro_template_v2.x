@@ -36,7 +36,6 @@
   "dependencies": {
     "@rematch/core": "^1.4.0",
     "@rematch/loading": "^1.2.1",
-    "@tarojs/cli": "2.1.5",
     "@tarojs/components": "2.1.5",
     "@tarojs/components-qa": "2.1.5",
     "@tarojs/redux": "^2.1.5",
@@ -57,6 +56,7 @@
     "regenerator-runtime": "0.11.1"
   },
   "devDependencies": {
+    "@tarojs/cli": "^2.1.5",
     "@tarojs/mini-runner": "2.1.5",
     "@tarojs/webpack-runner": "2.1.5",
     "@types/react": "^16.4.6",
