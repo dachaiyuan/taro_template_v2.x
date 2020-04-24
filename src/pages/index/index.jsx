@@ -9,20 +9,9 @@ function Index({ dispatch }) {
   useEffect(() => {
     dispatch.test()
   }, [])
-  const onCoverClick = () => {
-    console.log('cover')
-  }
-  const onContentClick = () => {
-    console.log('content')
-  }
   return (
     <View className='index'>
-      <View onClick={onContentClick} className='content'>
-        123
-      </View>
-      <View onClick={onCoverClick} className='cover'>
-
-      </View>
+      hello word
     </View>
   )
 }

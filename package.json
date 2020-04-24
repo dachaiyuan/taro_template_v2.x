@@ -14,7 +14,7 @@
     "build": "npm run build:weapp",
     "build:neibu": "HOST_ENV=neibu npm run build",
     "mock": "mocker ./mock",
-    "build:weapp": "taro build --type weapp",
+    "build:weapp": "./node_modules/.bin/taro build --type weapp",
     "build:swan": "taro build --type swan",
     "build:alipay": "taro build --type alipay",
     "build:tt": "taro build --type tt",
@@ -36,7 +36,7 @@
   "dependencies": {
     "@rematch/core": "^1.4.0",
     "@rematch/loading": "^1.2.1",
-    "@tarojs/cli": "^2.1.5",
+    "@tarojs/cli": "2.1.5",
     "@tarojs/components": "2.1.5",
     "@tarojs/components-qa": "2.1.5",
     "@tarojs/redux": "^2.1.5",
