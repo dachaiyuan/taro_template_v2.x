@@ -20,6 +20,5 @@ function resImage(req, res) {
 }
 
 module.exports = {
-    'GET /images/ns.jpg': (req, res) => resImage(req, res),
-    'GET /images/nsqq.jpg': (req, res) => resImage(req, res),
+    'GET /images/(.*)': (req, res) => resImage(req, res),
 }
