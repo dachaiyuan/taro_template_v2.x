@@ -2,7 +2,7 @@
 function getApiHost() {
     if (process.env.HOST_ENV === 'neibu') return 'https://xxxx.neibu.com';
     if (process.env.NODE_ENV === 'development') {
-        return `${process.env.IP_ADDRESS}:3721`;
+        return `http://${process.env.IP_ADDRESS}:3721`;
     }
     if (process.env.NODE_ENV === 'production') {
         return 'https://xxx.com'
@@ -11,7 +11,7 @@ function getApiHost() {
 
 function getImageHost() {
     if (process.env.NODE_ENV === 'development') {
-        return `${process.env.IP_ADDRESS}:3721`;
+        return `http://${process.env.IP_ADDRESS}:3721`;
     }
     return 'https://cdns.com'
 }
