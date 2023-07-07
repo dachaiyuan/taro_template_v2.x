@@ -75,7 +75,7 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "eslint-plugin-taro": "2.1.5",
     "mocker-api": "^2.0.4",
-    "stylelint": "9.3.0",
+    "stylelint": "15.10.1",
     "stylelint-config-taro-rn": "2.1.5",
     "stylelint-taro-rn": "2.1.5"
   }
